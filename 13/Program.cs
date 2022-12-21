@@ -59,7 +59,7 @@ if ( input <-100 && input>-1000  )
 
 Console.WriteLine(itog);
      }
-if ( input < 0 && input>-100  )
+if ( input <= 0 && input>-100  )
 {
 Console.WriteLine("третьего числа нет"); 
 }

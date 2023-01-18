@@ -1,0 +1,15 @@
+E:\Новая папка\23\seminar2\25\bin\Debug\net6.0\25.exe
+E:\Новая папка\23\seminar2\25\bin\Debug\net6.0\25.deps.json
+E:\Новая папка\23\seminar2\25\bin\Debug\net6.0\25.runtimeconfig.json
+E:\Новая папка\23\seminar2\25\bin\Debug\net6.0\25.dll
+E:\Новая папка\23\seminar2\25\bin\Debug\net6.0\25.pdb
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.csproj.AssemblyReference.cache
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.GeneratedMSBuildEditorConfig.editorconfig
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.AssemblyInfoInputs.cache
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.AssemblyInfo.cs
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.csproj.CoreCompileInputs.cache
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.dll
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\refint\25.dll
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.pdb
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\25.genruntimeconfig.cache
+E:\Новая папка\23\seminar2\25\obj\Debug\net6.0\ref\25.dll

@@ -4,7 +4,7 @@ string a = Console.ReadLine();
 int lent = a.Length;
 //Console.WriteLine(lent); 
 int summ=0;
-int sum=0;
+//int sum=0;
 int Z=0;
 for (int i=0; i<lent; i++)
     {
@@ -49,8 +49,9 @@ for (int i=0; i<lent; i++)
                 Z=9;
             }
    summ=Z+summ;
-sum=sum+Int32.TryParse(a[i], out int j);
-    Console.WriteLine(j); 
+//sum=sum+Int32.TryParse(a[i], out int j);
+   // Console.WriteLine(j); 
     }
-//Console.WriteLine("сумма всех числел:"); 
-//Console.WriteLine(summ); 
+Console.WriteLine("сумма всех числел:"); 
+Console.WriteLine(summ); 
+//Вопрос к преподавателю, ПОЧЕМУ не работает "Parse" или как преобразовать символ из таблицы АСКИ в обычную цифру.

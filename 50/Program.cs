@@ -1,5 +1,4 @@
-﻿
- Console.WriteLine("количество строк   ");
+﻿ Console.WriteLine("количество строк   ");
 int size = Convert.ToInt32(Console.ReadLine());
  Console.WriteLine("количество стобцов");
 int size1 = Convert.ToInt32(Console.ReadLine());
@@ -21,8 +20,8 @@ void masadd(double[,] mas)//ввод одномерного массива
         //Random rnd = new Random();
        // int value = rnd.Next(0, 10);
             mas[i,j] = Convert.ToDouble(new Random().Next(0, 10));
-            
-            
+
+
         }
        // Console.WriteLine(j);
     }
@@ -34,11 +33,11 @@ void masgift(double[,] mas)//ввод одномерного массива
 {
     for(int i=0; i < size; i++)
     {
-         
+
         for( int j = 0; j < size1; j++)
         {
             Console.Write($"{mas[i,j]} ");
-           
+
         }
         if (i!=size-1)
             {
@@ -52,27 +51,30 @@ void masseach(double[,] mas)//ввод одномерного массива
     Console.WriteLine("");
     Console.WriteLine("какой элемент ищем?");
     Console.WriteLine("введите строку ");
-    int seach = Convert.ToInt32(Console.ReadLine());
+    int seach3 = Convert.ToInt32(Console.ReadLine());
+    int seach=seach3-1;
     Console.WriteLine("введите столбец ");
-    int seach1 = Convert.ToInt32(Console.ReadLine());
-    if (seach>size||seach1>size1)
+    int seach4 = Convert.ToInt32(Console.ReadLine());
+    int seach1=seach4-1;
+    if (seach>=size||seach1>size1)
     {
         Console.WriteLine("такого элемента нет");
     }
     else {
+        Console.Write("вот ваш элемент:");
         Console.WriteLine(mas[seach,seach1]);
     }
     // for(int i=0; i < size; i++)
     // {
-         
+
     //     for( int j = 0; j < size1; j++)
     //     {
     //        if (i==seach)
     //         {
     //             Console.WriteLine($"{mas[i,j]->}");
     //         }
-           
+
     //     }
-        
+
     // }
 }
